@@ -1,5 +1,6 @@
 <?php
 header("content-type:text/html;charset=utf8");
+session_start();
 define("MVC",true);//用来记录一个口令，只能从这个页面进入
 define("APP_DIR_NAME","application");
 define("APP_NAME",__DIR__.DIRECTORY_SEPARATOR.APP_DIR_NAME.DIRECTORY_SEPARATOR);//应用文件夹

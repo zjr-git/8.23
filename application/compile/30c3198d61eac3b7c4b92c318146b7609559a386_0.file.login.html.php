@@ -1,6 +1,6 @@
 <?php
 /* Smarty version 3.1.34-dev-7, created on 2020-08-20 13:38:11
-  from 'D:\wamp64\www\单入口\application\template\admin\login.html' */
+  from 'D:\wamp64\www\mvc\application\template\admin\login.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
@@ -11,7 +11,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
     '30c3198d61eac3b7c4b92c318146b7609559a386' => 
     array (
-      0 => 'D:\\wamp64\\www\\单入口\\application\\template\\admin\\login.html',
+      0 => 'D:\\wamp64\\www\\mvc\\application\\template\\admin\\login.html',
       1 => 1597930688,
       2 => 'file',
     ),

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function setCoolie(attr,val,second){
+        var expires="";
+        if(second){
+            var date=new Date();
+            date.setTime(date.getTime()+1000*second);
+            date=date.toUTCString();
+            expires="expires"+date;
+        }
+        document.cookie=attr+"="+val+";"+expires;
+;    }
+    function getCookie(attr){
+        var cookies=document.cookie;
+        var arr=cookies.split(";");
+     for(var i in arr){
+         var arr1=arr[i].split("=");
+         if(arr1[0]==attr){
+             return arr1[1];
+         }
+     }
+    }
+
+    function delCookie(attr){
+        var date=new Date();
+        date.setTime(date.getTime()-1000);
+        date=date.toUTCString();
+        expires="expires"+date;
+        document.cookie=attr+"=xx"+expires;
+    }
+
+    delCookie("");
+</script>
+</body>
+</html>

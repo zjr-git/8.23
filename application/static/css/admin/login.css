@@ -1,6 +1,6 @@
-.form-horizontal{
-width: 500px;
-    height: 260px;
+.form-horizontal {
+    width: 640px;
+    height: 360px;
     box-shadow: 0 0 10px #000;
     position: absolute;
     left: 0;
@@ -11,7 +11,8 @@ width: 500px;
     padding: 10px;
     border-radius: 10px;
 }
-.form-horizontal h1{
+
+.form-horizontal h1 {
     font-size: 18px;
     text-align: center;
     padding: 10px;
